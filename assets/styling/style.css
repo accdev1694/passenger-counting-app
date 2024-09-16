@@ -13,3 +13,17 @@ body {
   color: aliceblue;
   font-size: 20px;
 }
+
+.container {
+    width: 20%;
+    max-width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border: solid 1px whitesmoke;
+    border-radius: 50px;
+    padding: 75px 120px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
