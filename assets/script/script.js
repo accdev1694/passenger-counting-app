@@ -14,3 +14,7 @@ function save() {
   currentCount.textContent = current;
   countEl.textContent = 0;
 }
+
+function clearSave() {
+    currentCount.textContent = ""
+}
